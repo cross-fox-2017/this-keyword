@@ -4,6 +4,19 @@
 // Contoh penggunaan this dalam global context:
 // Jika pemanggilan this pada node.js maka akan merujuk pada global object di node tersebut.
 // Jika pemanggilan this pada browser maka global object-nya window pada browser tersebut.
+class JSVersion {
+	constructor () {
+		this.version = process.version
+	}
+	
+	versiJs() {
+		// console.log('test')
+		return this.version
+	}
+}
+
+var versi = new JSVersion()
+console.log(versi.versiJs())
 
 // CLASS CONTEXT
 // Contoh penggunaan this dalam sebuah class di JavaScript:

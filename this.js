@@ -3,9 +3,11 @@
 class Keyword{
   constructor(params){
     this.pesan = params['pesan']
+    this.version = process.versions
   }
 
   yahoo(){
+    console.log("Node JS VERSION : "+process.versions.node);
     console.log(this.pesan);
     console.log("this.pesan Tidak akan keluar karena 'function' berada dalam method (fungsi dalam fungsi)");
     setTimeout(function(){

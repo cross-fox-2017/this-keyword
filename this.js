@@ -2,24 +2,31 @@
 
 // GLOBAL CONTEXT
 //untuk cari version : this.process.version
-//this. nama= "hello world"
-//console.log(this.nama);
-
+//Revisi version
+class Versi{
+  constructor(){
+    this.version= process.version
+  }
+  versiNode(){
+    return `versi node yang terinstall adalah: ${this.version}`
+  }
+}
+let nodeVer = new Versi
+console.log(nodeVer.versiNode())
 
 // CLASS CONTEXT
-/*
+
 class person{
   constructor(nama,kelas){
     this.nama = nama
     this.kelas = kelas
   }
   print(){
-    return console.log(`nama : ${this.nama} , kelas: ${this.kelas}`)
+    return `nama : ${this.nama} , kelas: ${this.kelas}`
   }
 }
 var tim = new person('tim','crossfox')
-tim.print();
-*/
+console.log(tim.print())
 // RELEASE 1
 /*
 Yang saya pahami dari this dengan menjalankan node maka this akan memanggil attribut

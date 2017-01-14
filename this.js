@@ -22,15 +22,15 @@ console.log(resultPeople.resultName);
 //Version_JS
 class Version_JS {
   constructor() {
-    this.version = process.version.node;
+    this.version = process.version;
   }
-  version(){
+  printVersion(){
     return this.version;
   }
 }
 
 let resultVersion = new Version_JS()
-console.log(resultVersion.version);
+console.log(resultVersion.printVersion());
 
 // RELEASE 1
 /*

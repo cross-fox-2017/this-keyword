@@ -19,6 +19,19 @@ class people {
 let resultPeople = new people ("Eri Irawan");
 console.log(resultPeople.resultName);
 
+//Version_JS
+class Version_JS {
+  constructor() {
+    this.version = process.version.node;
+  }
+  version(){
+    return this.version;
+  }
+}
+
+let resultVersion = new Version_JS()
+console.log(resultVersion.version);
+
 // RELEASE 1
 /*
   - parameter yang menggunakan this bisa dipanggil difungsi yang lain, karena sifat dari this

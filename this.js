@@ -262,6 +262,19 @@
 
 
 // CLASS CONTEXT
+class nodeVersion {
+  constructor() {
+    this.version = process.version
+  }
+
+  printVersion(){
+    return this.version
+  }
+}
+
+let print = new nodeVersion()
+console.log(print.printVersion())
+// console.log(process.version);
 /**
 
 // menggunakan contoh class dari challenge argument order dependency

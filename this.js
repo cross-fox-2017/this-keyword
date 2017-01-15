@@ -1,7 +1,7 @@
 "use strict"
 
 // GLOBAL CONTEXT
-
+console.log(process.version);
 //this.process.version => "v6.9.1"
 // DTRACE_NET_SERVER_CONNECTION: [Function],
 // DTRACE_NET_STREAM_END: [Function],

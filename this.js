@@ -1,5 +1,4 @@
 "use strict"
-
 // GLOBAL CONTEXT
 // //process {
 //   title: 'node',
@@ -8,6 +7,7 @@
 // maka kita bisa mengakses / memanggil fungsi seperti
 // > this.process.version
 // maka hasilnya adalah v6.4.0
+console.log(process.version);
 
 
 // CLASS CONTEXT

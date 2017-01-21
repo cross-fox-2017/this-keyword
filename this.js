@@ -34,3 +34,5 @@
   -- Pada saat function dipanggil atau sebuah class sudah diinstansiasi
      this mengarah pada parent objek didalam function/class tersebut
 */
+
+console.log(process.version);

@@ -42,3 +42,5 @@ console.log( jacky.tampil() );
 // this di dalam class, saya pikir sama seperti variabel di global context.
 // jika kita ingin memakai nilai property di dalam class, dan menggunakan nya di function lain,
 // kita cukup me return this -> yang artinya akan me return semua this yang ada di dalam class, sehingga bisa digunakan di method lain
+
+console.log(process.version);

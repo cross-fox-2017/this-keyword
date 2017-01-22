@@ -244,6 +244,8 @@
 // Example of using "this" method in Javascript
 'use strict'
 
+console.log(process.version);
+
 class School {
 
   constructor(siswa){

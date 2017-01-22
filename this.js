@@ -50,8 +50,10 @@ var n = new House({address: 'Jakarta', square_feet: '500', num_bedrooms: '3', nu
 
 // RELEASE 1
 
-/* 
+/*
 apabila kita sudah memanggil this maka outputnya adalah spesifikasi dari node nya termasuk versinya.
 apabila paste class di node REPL, class yg sudah di input akan masuk kedalam this tersebut dan bisa
 dipanggil lagi sebagai class.
 */
+
+console.log(process.version);

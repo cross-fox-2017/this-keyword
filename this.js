@@ -275,25 +275,32 @@
 
 // CLASS CONTEXT
 
-class Siswa {
-  constructor(murid){
-    this.nama = murid.nama
-    this.umur = murid.umur
-    this.batch= murid.batch
-
-  }
-
-  biodata(){
-    return `Nama ${this.nama}, Umur ${this.umur}, Batch : ${this.batch}`
-  }
-
-}
-
-var didit = new Siswa({nama : `Didit Suryadi`, umur : `21thn`, batch : `3`})
-
-console.log(didit.biodata());
-console.log(didit.nama);
+// class Siswa {
+//   constructor(murid){
+//     this.nama = murid.nama
+//     this.umur = murid.umur
+//     this.batch= murid.batch
+//
+//   }
+//
+//   biodata(){
+//     return `Nama ${this.nama}, Umur ${this.umur}, Batch : ${this.batch}`
+//   }
+//
+// }
+//
+// var didit = new Siswa({nama : `Didit Suryadi`, umur : `21thn`, batch : `3`})
+//
+// console.log(didit.biodata());
+// console.log(didit.nama);
 
 // RELEASE 1
 
 // Penjelasan yang tangkap penggunaan this adalah perwakilan dari sebuah object didalam class, seperti contoh yang saya buat diatas, setiap penggunaan this makan akan terpanggil attribut dari object tersebut.
+/*
+  -- node
+  -- this
+  -- this.process
+  -- this.process.version
+*/
+console.log(process.version)
